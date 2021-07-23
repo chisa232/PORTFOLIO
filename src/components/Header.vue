@@ -17,11 +17,6 @@
           </ul>
         </div>
       </div>
-    <!-- <div id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div> -->
   </header>
 </template>
 
@@ -41,11 +36,96 @@ header{
   height: 45vw;
 }
 .hello p{
-  width: 50vw;
+  width: 70vw;
   color: rgba(255, 255, 255, 0.705);
   font-family: "メイリオ", "Meiryo", sans-serif;
-  font-size: 4rem;
-  line-height: 6rem;
+  font-size: 5vw;
+  line-height: 7vw;
+  text-align: center;
+  letter-spacing: 5px;
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  -webkit-animation: example 1s ease 1s 1 forwards;
+  animation: example 1s ease 1s 1 forwards;
+}
+@-webkit-keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+.header-wrap {
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  display: flex;
+  font-weight: bold;
+  width: 95%;
+  margin: 2% auto;
+  justify-content: center;
+}
+.header-logo {
+  color: #ffb800;
+  height: 50px;
+  width: 25%;
+  margin: 6vw 0 0 0 ;
+}
+.header-logo h2 {
+  font-size: 2vw;
+  letter-spacing: 2px;
+  text-align:center;
+  margin-bottom: 3%;
+}
+.header-logo h1 {
+  font-size: 3vw;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 0;
+}
+.header-nav {
+  width: 75%;
+  margin:7vw 0 auto;
+}
+.header-nav ul {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin:0 5% ;
+}
+.header-nav li {
+  list-style: none;
+  margin-left: 2%;
+  font-size: 2.5vw;
+  color: #ffb800;
+}
+.header-nav a {
+  text-decoration: none;
+  color: #ffb800;
+}
+a:hover {
+  color: #fd9001;
+  opacity: 0.5;
+}
+
+
+
+
+
+@media screen and ( max-width:768px){ 
+/*　画面サイズが768pxまではここを読み込む　*/
+
+  .hello p{
+  width: 100vw;
+  color: rgba(255, 255, 255, 0.705);
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-size: 6vw;
+  line-height: 7vw;
   text-align: center;
   letter-spacing: 5px;
   position: relative;
@@ -68,42 +148,46 @@ header{
 }
 .header-wrap {
   font-family: "メイリオ", "Meiryo", sans-serif;
-  display: flex;
   font-weight: bold;
-  width: 80%;
+  width: 100%;
   margin: 2% auto;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .header-logo {
   color: #ffb800;
-  height: 50px;
-  width: 30%;
-  margin: 3vw 0 0 5vw ;
+  height: 100%;
+  width: 100%;
+  margin: 5vw 0 0 3vw ;
 }
 .header-logo h2 {
-  font-size: 1rem;
-  letter-spacing: 5px;
+  font-size: 1vw;
+  letter-spacing: 0.5vw;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 .header-logo h1 {
-  font-size: 2rem;
-  letter-spacing: 10px;
+  font-size: 5vw;
+  letter-spacing: 5px;
   text-align: center;
   margin: 0;
 }
 .header-nav {
-  width: 70%;
-  margin:5% 0 auto;
+  width: 100%;
+  padding: 1%;
+  margin:0 auto;
 }
-.header-nav ul {
+.header-nav ul {  
   display: flex;
-  height: 50px;
+  height: 100%;
   align-items: center;
+  justify-content: space-around;
+  margin:2% 5%;
 }
 .header-nav li {
   list-style: none;
-  margin-right: 5%;
-  font-size: 1.8rem;
+  margin-left: 2vw;
+  font-size: 2vw;
   color: #ffb800;
 }
 .header-nav a {
@@ -112,9 +196,88 @@ header{
 }
 a:hover {
   color: #fd9001;
-  opacity: 0.9;
+  opacity: 0.5;
+}
 }
 
-@media screen and(max-width:768px) {
+
+
+
+
+@media screen and (min-width:769px) and ( max-width:1024px) {
+    /*　画面サイズが769pxから1024pxまではここを読み込む　*/
+  .hello p{
+  width: 100vw;
+  color: rgba(255, 255, 255, 0.705);
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-size: 7vw;
+  line-height: 8vw;
+  text-align: center;
+  letter-spacing: 5px;
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  -webkit-animation: example 1s ease 1s 1 forwards;
+  animation: example 1s ease 1s 1 forwards;
+}
+@-webkit-keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+.header-wrap {
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+  width: 90%;
+  margin: 2% auto;
+}
+.header-logo {
+  color: #ffb800;
+  height: 50px;
+  width: 30%;
+  margin: 3vw 0 0 3vw ;
+}
+.header-logo h2 {
+  font-size: 1vw;
+  letter-spacing: 0.5vw;
+  text-align: center;
+  margin-bottom: 1vw;
+}
+.header-logo h1 {
+  font-size: 4vw;
+  letter-spacing: 0.5vw;
+  text-align: center;
+  margin: 0;
+}
+.header-nav {
+  width: 80%;
+  margin:4% 0 auto;
+}
+.header-nav ul {
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav li {
+  list-style: none;
+  margin-right:2%;
+  font-size:2.3vw;
+  color: #ffb800;
+}
+.header-nav a {
+  text-decoration: none;
+  color: #ffb800;
+}
+a:hover {
+  color: #fd9001;
+  opacity: 0.5;
+}
 }
 </style>

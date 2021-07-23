@@ -8,19 +8,19 @@
       </p>
     </div>
     <div id="profile">
-      <h2>～ プロフィール</h2>
+      <h2>～ プロフィール ～</h2>
       <div class="profile-wrap-1">
         <div class="left">
-          <p class="left-1">おのがわ ちさ</p>
+          <p class="left-1">Onogawa Chisa</p>
           <p class="left-2">斧川 千紗</p>
         </div>
         <div class="right">
           <p class="right-1">1993年　大阪生まれ</p>
           <p class="right-2">2018年　人間総合科学大学 卒業</p>
-          <p class="right-3">
-            二酸化塩素を使った除菌消臭剤の会社に就職(在職中)
-          </p>
           <p class="right-4">2021年　COACHTECH 卒業</p>
+          <p class="right-3">
+            2018年より、二酸化塩素を使用した除菌消臭剤を製造する会社に勤務
+          </p>
         </div>
       </div>
       <div class="profile-wrap-2">
@@ -272,14 +272,20 @@ input,
 select {
   vertical-align: middle;
 }
+
+
+
+
+
+
 .Introduction {
-  width: 60vw;
+  width: 100vw;
   font-family: "メイリオ", "Meiryo", sans-serif;
   font-weight: bold;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
-  line-height: 2rem;
-  margin: 6vw auto;
+  font-size: 2vw;
+  letter-spacing: 3px;
+  line-height: 4vw;
+  margin: 10% auto;
   text-align: center;
 }
 #profile {
@@ -287,123 +293,124 @@ select {
   font-weight: bold;
 }
 #profile h2 {
-  width: 15vw;
-  font-size: 1.5rem;
+  width: 26vw;
+  font-size: 3vw;
   color: #ff7b00;
-  margin: 7vw auto 4vw;
+  margin: 10vw auto 3vw;
 }
 .profile-wrap-1 {
+  width:100%;
+  margin: 5% auto;
   display: flex;
-  width: 60%;
-  margin: 2% auto;
 }
 .left {
-  height: 50px;
-  width: 40%;
-  margin: 4vw 0 3vw 5vw;
+  height: 80px;
+  width:50%;
+  margin: 5vw auto 0;
 }
 .left-1 {
-  font-size: 1rem;
+  font-size: 2vw;
   letter-spacing: 5px;
   text-align: center;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 .left-2 {
-  font-size: 2rem;
+  font-size: 4vw;
   letter-spacing: 10px;
   text-align: center;
 }
 .right {
-  width: 60%;
-  margin: 2vw 0 0 0;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
-  line-height: 2rem;
+  width: 70%;
+  margin: 2vw auto;
+  font-size: 2vw;
+  letter-spacing: 3px;
+  line-height: 4vw;
 }
 .right-3 {
-  width: 131%;
-  text-align: right;
-  /* margin-left: 7.5vw; */
+  width: 100%;
+  margin-top: 3%;
+  text-align:center ;
 }
 .profile-wrap-2 {
-  width: 35%;
-  margin: 0 auto;
-  font-size: 1.3rem;
-  line-height: 2rem;
+  width: 100%;
+  margin: 5vw auto;
 }
 .hobby {
-  width: 60%;
-  margin: 2vw auto;
-  font-size: 1.3rem;
-  line-height: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2vw;
+  line-height: 4vw;
+  text-align: center;
 }
 .hobby-3 {
-  width: 150%;
+  width: 100%;
 }
 #programmingLanguage {
   font-family: "メイリオ", "Meiryo", sans-serif;
   font-weight: bold;
+
 }
 #programmingLanguage h2 {
-  width: 12vw;
-  font-size: 1.5rem;
+  width: 20vw;
+  font-size: 3vw;
   color: #ff7b00;
-  margin: 7vw auto 5vw;
+  margin: 10vw auto 5vw;
 }
 .img-1,
 .img-2,
 .img-6,
 .img-8 {
-  width: 7vw;
+  width: 13vw;
   align-items: center;
-  margin: 2vw 2vw;
+  margin: 2vw;
 }
 .img-wrap {
   display: flex;
-  margin: 0 auto;
-  width: 44vw;
+  margin: 5vw auto;
+  width: 70vw;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .laravel,
 .vuejs,
 .mysql,
 .github {
-  width: 7vw;
+  width: 13vw;
   margin: 2vw 2vw;
 }
 .img-3,
 .img-4,
 .img-5,
 .img-7 {
-  width: 7vw;
+  width: 13vw;
   margin: 1vw auto 0;
 }
 .laravel p,
 .vuejs p,
 .mysql p,
 .github p {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   text-align: center;
   font-family: "Franklin Gothic Medium", "メイリオ", sans-serif;
 }
 #products h2 {
-  width: 12vw;
-  font-size: 1.5rem;
+  width: 20vw;
+  font-size: 3vw;
   color: #ff7b00;
   margin: 7vw auto 5vw;
 }
 .product-link {
   display: flex;
-  width: 30vw;
+  width: 100vw;
   margin: auto;
-  justify-content: space-around;
+  justify-content: center;
 }
 .product-link p {
   font-family: "Franklin Gothic Medium", "メイリオ", "Meiryo";
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   letter-spacing: 3px;
-  padding: 10px 0 20px;
+  padding: 1.5vw 1vw;
   list-style: none;
 }
 #products a {
@@ -412,44 +419,427 @@ select {
 }
 a:hover {
   color: rgb(66, 65, 65);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .github-link {
+  display: flex;
   background-color: white;
   padding: 5px 20px;
   border: solid 1px;
   border-radius: 40px;
+  margin: 1vw 3vw;
 }
 .github-1 {
-  width: 2vw;
+  width: 3vw;
   margin-right: 5px;
 }
 .github-2 {
-  width: 5vw;
+  width: 8vw;
+  margin-top: 0.5vw;
 }
 .contact-wrap{
   display: flex;
-  width: 45vw;
-  margin: 0 auto 7vw;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: center;
 }
 #contact h2 {
-  width: 15vw;
-  font-size: 1.5rem;
+  width: 26vw;
+  font-size: 3vw;
   color: #ff7b00;
   margin: 10vw auto 5vw;
 }
 .contact-img-1 {
-  width: 7vw;
+  width: 15vw;
 }
 .contact-img-2 {
-  width: 4vw;
+  width: 7vw;
+}
+.contact-right{
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  line-height: 3vw;
+  text-align: center;
+  margin: auto 0;
+}
+
+
+
+
+@media screen and ( max-width:768px){ 
+  /*　画面サイズが768pxまではここを読み込む　*/
+.Introduction {
+  width: 100vw;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  line-height:5vw;
+  margin: 10vw auto;
+  text-align: center;
+}
+#profile {
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+}
+#profile h2 {
+  width: 35vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 15vw auto 3vw;
+}
+.profile-wrap-1 {
+  width: 85%;
+  flex-wrap: wrap;
+  margin: 2% auto;
+}
+.left {
+  height: 50px;
+  width: 100%;
+  margin: 4vw auto 0;
+}
+.left-1 {
+  font-size:2vw;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.left-2 {
+  font-size: 6vw;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.right {
+  width: 100%;
+  margin: 8vw auto;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  line-height: 4vw;
+  text-align:center ;
+}
+.right-3 {
+  width: 100%;
+  text-align:center ;
+}
+.profile-wrap-2 {
+  width: 100%;
+  margin: 0 auto;
+}
+.hobby {
+  width: 100%;
+  margin: 0 auto ;
+  font-size: 2vw;
+  line-height: 4vw;
+  text-align: center;
+}
+.hobby-3 {
+  width: 100%;
+}
+#programmingLanguage {
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+}
+#programmingLanguage h2 {
+  width: 27vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 15vw auto 5vw;
+}
+.img-1,
+.img-2,
+.img-6,
+.img-8 {
+  width:10vw;
+  align-items: center;
+  margin: 2vw 2vw;
+}
+.img-wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 60vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.laravel,
+.vuejs,
+.mysql,
+.github {
+  width: 10vw;
+  margin: 2vw 2vw;
+}
+.img-3,
+.img-4,
+.img-5,
+.img-7 {
+  width: 10vw;
+  margin: 1vw auto 0;
+}
+.laravel p,
+.vuejs p,
+.mysql p,
+.github p {
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "メイリオ", sans-serif;
+}
+#products h2 {
+  width:27vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 10vw auto 5vw;
+}
+.product-link {
+  display: flex;
+  width: 100vw;
+  margin: auto;
+  justify-content: center;
+}
+.product-link p {
+  font-family: "Franklin Gothic Medium", "メイリオ", "Meiryo";
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  padding: 2vw 0 ;
+  list-style: none;
+}
+#products a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(66, 65, 65);
+  opacity: 0.5;
+}
+.github-link {
+  background-color: white;
+  padding: 2px 10px;
+  border: solid 1px;
+  border-radius: 40px;
+}
+.github-1 {
+  width: 3vw;
+  margin-right: 3px;
+}
+.github-2 {
+  width: 7vw;
+}
+.contact-wrap{
+  width: 100%;
+  margin: 0 auto 10vw;
+  align-items: center;
+  justify-content: center;
+}
+#contact h2 {
+  width: 35vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 10vw auto 5vw;
+}
+.contact-img-1 {
+  width: 15vw;
+}
+.contact-img-2 {
+  width: 9vw;
 }
 .contact-right{
   text-align: center;
   font-family: "メイリオ", "Meiryo", sans-serif;
   font-weight: bold;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
-  line-height: 2rem;
+  font-size: 2vw;
+  letter-spacing: 0px;
+  line-height: 4vw;
+}
+}
+
+
+
+
+
+@media screen and (min-width:769px) and ( max-width:1024px) {
+    /*　画面サイズが769pxから1024pxまではここを読み込む　*/
+.Introduction {
+  width: 100vw;
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  line-height: 4vw;
+  margin: 10vw auto 1vw;
+  text-align: center;
+}
+#profile {
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+}
+#profile h2 {
+  width: 35vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 10vw auto 3vw;
+}
+.profile-wrap-1 {
+  width: 85%;
+  flex-wrap: wrap;
+  margin: 2% auto;
+}
+.left {
+  height: 80px;
+  width: 100%;
+  margin: 4vw auto 0;
+}
+.left-1 {
+  font-size: 1vw;
+  letter-spacing: 0.5vw;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.left-2 {
+  font-size: 4vw;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.right {
+  width: 100%;
+  margin: 2vw auto;
+  font-size: 2vw;
+  letter-spacing: 3px;
+  line-height: 4vw;
+  text-align:center ;
+}
+.right-3 {
+  width: 100%;
+  text-align:center ;
+}
+.profile-wrap-2 {
+  width: 100%;
+  margin: 0 auto;
+}
+.hobby {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2vw;
+  line-height: 4vw;
+  text-align: center;
+}
+.hobby-3 {
+  width: 100%;
+}
+#programmingLanguage {
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+}
+#programmingLanguage h2 {
+  width: 27vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 15vw auto 5vw;
+}
+.img-1,
+.img-2,
+.img-6,
+.img-8 {
+  width:12vw;
+  align-items: center;
+  margin: 3vw 2vw;
+}
+.img-wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 70vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.laravel,
+.vuejs,
+.mysql,
+.github {
+  width: 12vw;
+  margin: 3vw 2vw;
+}
+.img-3,
+.img-4,
+.img-5,
+.img-7 {
+  width: 12vw;
+  margin: 1.5vw auto 0;
+}
+.laravel p,
+.vuejs p,
+.mysql p,
+.github p {
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "メイリオ", sans-serif;
+}
+#products h2 {
+  width:27vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 10vw auto 5vw;
+}
+.product-link {
+  display: flex;
+  width: 70vw;
+  margin: auto;
+  justify-content: center;
+}
+.product-link p {
+  font-family: "Franklin Gothic Medium", "メイリオ", "Meiryo";
+  font-weight: bold;
+  font-size: 3vw;
+  letter-spacing: 1px;
+  padding: 2vw 0 ;
+  list-style: none;
+}
+#products a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(66, 65, 65);
+  opacity: 0.5;
+}
+.github-link {
+  background-color: white;
+  padding: 6px 10px;
+  border: solid 1px;
+  border-radius: 40px;
+}
+.github-1 {
+  width: 3vw;
+  margin-right: 3px;
+}
+.github-2 {
+  width: 7vw;
+}
+.contact-wrap{
+  display: flex;
+  width: 77%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+#contact h2 {
+  width: 35vw;
+  font-size: 4vw;
+  color: #ff7b00;
+  margin: 15vw auto 5vw;
+}
+.contact-img-1 {
+  width: 13vw;
+}
+.contact-img-2 {
+  width: 8vw;
+}
+.contact-right{
+  font-family: "メイリオ", "Meiryo", sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 1px;
+  line-height: 3vw;
+  text-align: center;
+}
 }
 </style>

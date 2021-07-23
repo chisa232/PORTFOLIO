@@ -1,14 +1,14 @@
 <template>
-  <div class="footer">
-  </div>
+  <div class="footer"></div>
 </template>
 
-<style scoped>
-.footer{
-  width: 100vw;
-  height: 50px;
-  background-image:url("../assets/footer.jpg");
+<style>
+.footer {
+  height: 5vw;
+  background-image: url("../assets/footer.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: bottom;
+  margin-top: 10vw;
 }
 </style>
